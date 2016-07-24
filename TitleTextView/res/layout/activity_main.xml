@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:title="http://schemas.android.com/apk/res/com.monster.titletextview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.moster.titletextview.view.TitleTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        title:titletext="默认" >
+    </com.moster.titletextview.view.TitleTextView>
+
+    <com.moster.titletextview.view.TitleTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        title:titletextsize="25sp"
+        title:titletext="设置字体大小" >
+    </com.moster.titletextview.view.TitleTextView>
+
+    <com.moster.titletextview.view.TitleTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        title:titletextcolor="#ff00ff"
+        title:titletext="设置字体颜色" >
+    </com.moster.titletextview.view.TitleTextView>
+
+    <com.moster.titletextview.view.TitleTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        title:linecolors="#ff22ff"
+        title:titletext="设置横线颜色" >
+    </com.moster.titletextview.view.TitleTextView>
+
+</LinearLayout>
