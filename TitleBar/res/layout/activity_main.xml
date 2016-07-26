@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:titleBar="http://schemas.android.com/apk/res/com.monster.titlebar"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.monster.titlebar.view.TitleBar
+        android:id="@+id/titleBar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        titleBar:centerText="洋礼包"
+        titleBar:centerTextColor="#000"
+        titleBar:centerTextSize="12sp"
+        titleBar:leftBackground="@drawable/back"
+        titleBar:rightBackground="@drawable/share"
+        titleBar:titleBarBackgroundColor="#fff" >
+    </com.monster.titlebar.view.TitleBar>
+
+    <com.monster.titlebar.view.TitleBar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        titleBar:centerBackground="@drawable/title"
+        titleBar:rightBackground="@drawable/search"
+        titleBar:titleBarBackgroundColor="#fff" >
+    </com.monster.titlebar.view.TitleBar>
+
+    <com.monster.titlebar.view.TitleBar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        titleBar:centerText="洋礼包"
+        titleBar:centerTextColor="#000"
+        titleBar:centerTextSize="12sp"
+        titleBar:rightText="规则"
+        titleBar:rightTextColor="#000"
+        titleBar:rightTextSize="8sp"
+        titleBar:titleBarBackgroundColor="#fff" >
+    </com.monster.titlebar.view.TitleBar>
+
+</LinearLayout>
